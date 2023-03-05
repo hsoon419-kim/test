@@ -11,3 +11,8 @@ repos:
           "-rn", # Only display messages
           "-sn", # Don't display the score
         ]
+    - id: black
+      name: black
+      entry: black
+      language: system
+      types: [python]
