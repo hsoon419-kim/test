@@ -18,3 +18,7 @@ class Calculator(object):
     @staticmethod
     def divide(a, b):
         return a / b
+
+    @staticmethod
+    def add_one(a):
+        return a + 1

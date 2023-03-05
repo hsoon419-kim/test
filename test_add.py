@@ -22,3 +22,7 @@ def test_subtract(calculator):
 def test_multiply(calculator):
     assert calculator.multiply(2, 2) == 4
     assert calculator.multiply(5, 6) == 30
+
+
+def test_add_one(calculator):
+    assert calculator.add_one(1) == 2
