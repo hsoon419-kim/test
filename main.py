@@ -1,10 +1,8 @@
 """
 test
 """
-
-import sys
 import os
-
+import sys
 
 print("test")
 os.chmod()
