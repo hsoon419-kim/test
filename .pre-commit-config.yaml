@@ -10,6 +10,7 @@ repos:
         [
           "-rn", # Only display messages
           "-sn", # Don't display the score
+          "--errors-only"
         ]
     - id: black
       name: black

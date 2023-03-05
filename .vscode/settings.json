@@ -1,5 +1,8 @@
 {
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--errors-only"
+    ]
 }
