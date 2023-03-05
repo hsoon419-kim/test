@@ -1,10 +1,21 @@
 """
 test
 """
-import os
-import sys
 
 print("test")
-os.chmod()
-sys.audit()
+
 j = [1, 2, 3]
+
+
+def test(param: int) -> int:
+    """
+    add func
+    """
+    return param + 1
+
+
+def test_answer():
+    """
+    test func
+    """
+    assert test(3) == 5
