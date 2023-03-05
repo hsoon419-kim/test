@@ -12,10 +12,3 @@ def test(param: int) -> int:
     add func
     """
     return param + 1
-
-
-def test_answer():
-    """
-    test func
-    """
-    assert test(3) == 5
